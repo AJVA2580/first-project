@@ -1,5 +1,5 @@
 
-def avg(*list_numbers:float) -> float:
+def avg(*list_numbers:
 	total = 0
 	for num in list_numbers:
 		if isinstance(num, (int, float)):
