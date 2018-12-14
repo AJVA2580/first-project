@@ -15,7 +15,7 @@ class MediumTestCase(unittest.TestCase):
 	
 	def test_medium_input(self):
 		with self.assertRaises(TypeError):
-			self.assertEqual(avg(1, 2, 3, "Mohammad"), 2)
+			self.assertEqual(avg(1, 2, 3, "Augusto"), 2)
 	
 	def test_medium_input_two(self):
 		with self.assertRaises(TypeError):
