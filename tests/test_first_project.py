@@ -22,7 +22,7 @@ class MediumTestCase(unittest.TestCase):
 
 
 
-class HaardTestCase(unittest.TestCase):
+class HardTestCase(unittest.TestCase):
 
     def test_hard_input(self):
         with self.assertRaises(TypeError):
